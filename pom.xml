@@ -8,10 +8,12 @@
   <version>1.0</version>
 
   <properties>
+    <!--
     <fabric8.mode>openshift</fabric8.mode>
     <fabric8.generator.fromMode>istag</fabric8.generator.fromMode>
     <fabric8.generator.from>jboss-eap71-openshift:1.2</fabric8.generator.from>
     <fabric8.skipResourceValidation>true</fabric8.skipResourceValidation>
+    -->
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -72,6 +74,7 @@
     </plugins>
   </build>
   
+  <!--
   <profiles>
     <profile>
       <id>openshift</id>
@@ -94,6 +97,7 @@
         </plugins>
       </build>
     </profile>
+    -->
   </profiles>
   
 </project>
